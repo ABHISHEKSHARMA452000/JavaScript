@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-Manipulation</title>
+</head>
+<body>
+    <!--1. w3schools-->
+    <p id = "demo">hello world</p>
+    <p id = "demo1"></p> 
+    <script>
+        // let txt = document.getElementById("demo");//[object HTMLParagraphElement]
+        let txt = document.getElementById("demo").innerHTML;
+        document.getElementById("demo1").innerHTML = txt;
+        //document.getElementById("demo1").innerHTML = "world hello";
+    </script>
+</body>
+</html>

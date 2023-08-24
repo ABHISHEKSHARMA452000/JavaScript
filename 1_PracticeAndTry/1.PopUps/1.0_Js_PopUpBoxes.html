@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUpBoxes</title>
+    <!-- <style> internal css
+        body {background-color: powderblue;}
+        h2   {color: blue;}
+        p    {color: red;} 
+        </style> -->
+    <link rel="stylesheet" href="1.1_PopUpCss.css">
+    <script src = "1.2_External_JsFileConnect.js" ></script>
+</head>
+<body><!--<body style="background-color: aquamarine;"> inline css,,, inline css priority>internal css> external css --> 
+    <h2>Java-Script PopUpBoxes</h2>
+    <button onclick="myfunction()">Try it</button>
+    <p id = "demo"></p> <!--confirm ka liya--> 
+    <script> 
+        //1. Alert
+        // function myfunction(){
+        //     window.alert("I am a alert popup!"); or alert("I am a alert popup!"); without window bhi use kar sakta hai
+        // }
+        
+        //2.confirm
+        //When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+        //If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.
+        //  function myfunction(){
+        //     let txt;
+        //     if(window.confirm("I am a confirm popup!")){//if confirm return true;
+        //         txt = "You Pressed ok!";
+        //     }else{
+        //         txt = "You Pressed cancel !";//if confirm return false;
+        //     }
+        //     document.getElementById("demo").innerHTML = txt;
+        //   } 
+
+        //3.Prompt
+        // A prompt box is often used if you want the user to input a value before entering a page.
+        // When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+        // If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.
+        //window.prompt("sometext","defaultText"); syntax
+        // function myfunction(){
+        //     let text;
+        //     let name = window.prompt("I am a Prompt takes value from user","No-name");
+        //     if(name == null || name == ""){ //null milaga in case of cancel
+        //         text = "You Pressed cancel or enter no value";
+        //     }else{
+        //         text = "Hello " + name + " ,How are you?";
+        //     }
+        //     document.getElementById("demo").innerHTML = text;
+        // }
+    </script>
+
+</body>
+</html>

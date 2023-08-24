@@ -1,0 +1,35 @@
+=> landscape jisma width more then height of screen hoti hai
+=> portrait jisma height more then width of the screen hoti hai
+
+=>unit of size 
+1.px = fixed hota hai size change nhi hota hai
+2.% = percentage always with respect to parent of the element ka respect ma milti hai
+3.vh(viewport-height) and vw(viewport-width) ya apna size according to the size of the screen 
+adjust karta hai,eg fontsize ho height ho ya width ho etc ko vh vw de sakta hai
+4.vmax(viewport max jo bhi view port max hai auska according) and vmin(viewport min jo bhi view port min hai auska according) 
+according to height ka ya width ka change hota raha ga according to konsa viewport max ya min hai
+5.em ma parent ko jo font-size diya uska according child apna fontsize lete hai 
+eg parent ma fontsize = 30 px so now 1em = 30px if we change fontsize in parent 
+to 20px then 1 em =20px; 
+6. rem  r stand for root here ya screen ka according apni size lata hai eg 1rem = 16px
+
+=>flex box
+Property of parent hai sari ya
+1.justify-content main axis ka along html elemnt ko manage karta hai
+2.align-item elements ko cross axis ka along manage karta hai
+3.flex-wrap space na hona par elements ko wrap kar dete hai \
+4.flex-direction to change the main axis direction
+5.align-content:
+*This property only takes effect on multi-line flexible containers, 
+where flex-wrap is set to either wrap or wrap-reverse).
+A single-line flexible container (i.e. where flex-wrap is set to its default value, 
+no-wrap) will not reflect align-content.
+* This aligns a flex container’s lines within when there is extra space in the cross-axis,
+  similar to how justify-content aligns individual items within the main-axis.
+
+=> media query min-height,max-height,min-width,max-width
+@media (type){
+    any element
+}
+
+

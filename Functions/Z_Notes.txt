@@ -1,0 +1,14 @@
+1.code execution ka time kya hota hai
+code execution ka time sab sa phele jitna bhi function hota hai aunko memory allocate 
+hoti hai and variable ko undefined milta hai then ja kar kahai code top to bottom line 
+by line chalna start karta hai
+
+2.execution context basically frame hai jasa java ma hota hai
+code hamasa execution context ma chalta hai aagar ya nhi toh code js ma nhi chalta 
+e.c. ma two chesse hoti hai memory allocation and code execution part
+there are two type of execution context global and function wala
+global by default bana hua hota hai jabki function wala function call ka time banta hai
+global execution context for the code that is outside every function 
+
+3. java ma main hota hai and js ma koi main nhi hota toh vo G.E.C ma chal ta hai thats all 
+java ma frame banta hai jab koi function call kar karta hai toh same in js ma execution context banata hai jab function call hota hai toh

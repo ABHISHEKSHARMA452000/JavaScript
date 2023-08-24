@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAF7F0;
+    border-bottom: 2px solid black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    padding: 0 5vw;
+}
+.navp2{
+    /* border: 5px solid white; */
+    display: flex;
+    /* justify-content: space-between; ya nhi chalaga bcoze inka biche ma space hai hi nhi */
+    gap: 4vw;
+    align-items: center;
+}
+.page1{
+    height:100%;
+    width: 100%;
+    background-color:#CDFCF6;
+    position: relative;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: #BCCEF8;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: #98A8F8;
+}
+footer{
+    height: 30%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+}
+
+
+

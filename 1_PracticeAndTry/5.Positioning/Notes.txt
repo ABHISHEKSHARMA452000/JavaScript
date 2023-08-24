@@ -1,0 +1,21 @@
+=>Positioning in css
+1. static Positioning means it is according to the flow of the html file matlab jis 
+flow sa html element aa raha hai aus flow sa positioning it is default value of positioning
+2.Relative Positioning means positioning of the element Relative to the position of the html 
+flow according to that flow
+3.absolute positioning ka 2 case hota hai 1.ya Relative position lata hai according to nearest 
+ancestor the the element ka according if ancestor was given positioning Relative or any 2.
+ya fir if koi bhi ancestor ko positioning provide nhi ki toh according to html top left 
+corner sa positioning lata hai
+*absolute positioning ma ek baat or importnt hoti hai vo hai z index or z axis in webpage 
+in absolute ma z-index 0 par bhi element upar hi aata hai 
+4.fixed positioning which is position relation to top left corner and always fixed even after
+scrolling of the webpage
+
+
+
+
+
+
+
+

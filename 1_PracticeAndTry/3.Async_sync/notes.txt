@@ -1,0 +1,11 @@
+1.there are two stack in js one is main stack jo ki output dete hai another is side stack 
+jisma async code hota hai jo ko only tab main ma jata hai when main stack empty ho jaya 
+main ma direct toh sync code hi jata hai and indono stack ki bich ma baat karta hai event loop
+
+2. async jisma multiple task ek saath start kar diya jata hai and jis jis ka answer aata 
+hai vo apna kaam kar dete hai
+
+3. js sycn hai single thread hai multiple nhi hai
+
+4.axios, fetch, promises,settimout,setinterval jisma request jati hai ya sab async ka code hai
+then,catch,callback,async awit ja sab resonse hai to request

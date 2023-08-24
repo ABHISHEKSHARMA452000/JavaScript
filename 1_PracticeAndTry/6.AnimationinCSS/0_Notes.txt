@@ -1,0 +1,11 @@
+1. animation ma do baat important hoti hai first ki animation kasa banani hai and 
+second is ki animation kaha apply karni hai
+2.@keyframes nameofanimation{.....}
+basically do baad hoti hai initial(from state) before animation hamari elemnt kasa hai to final(to state) means after animation
+hamari elemnt kasi dehkha gi issa 
+3.animation fill mode means ki jab animation end hogi toh konsi state ma raha ga if 
+forward toh last state ma ste karaga apna liya if backward toh initial state ko set karaga 
+bu default backward hi set hua hota hai
+4. animation timimg function graph toh hai animation ma ki kis speed sa kis tahrah sa ma apna 
+animation ko move kara raha huaeg ease-in(slowly start but then fast hoga) ,ease-out(start ma fast
+then slow move)
