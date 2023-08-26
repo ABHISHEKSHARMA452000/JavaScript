@@ -4,6 +4,10 @@ Array.prototype.myMap = function(callback){
     for(let i=0;i<oarr.length;i++){//this ma addess hai of the main array jispa loop chala hai
         let val = this[i];//jab mymap use kara ga toh ek callback function type kara ga hum jo mymap ka callback ko mil jaya ga jo parameter ma hai
         let rv = callback(val,i,this);//then jab jab es line par aaya toh toh ya jo callback function pass kiya vo chalaga and value return push ho jaya gi in res array ma
+        // function(v,i,oarr){ yahi vo callback function hai
+        //     //console.log(v+"@"+i+"=["+oarr + "]");
+        //     return v*v;
+        // }
         res.push(rv);
     }
     return res;
