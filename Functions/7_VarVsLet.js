@@ -1,6 +1,7 @@
 //var
 //ressign 
-//function scope,redeclare kar sakta hai,you can access a var variable before declaration there all are bad form of a variable
+//function scope,redeclare kar sakta hai,
+//you can access a var variable before declaration there all are bad form of a variable
 // console.log(a);
 // var a;
 // a = 10;
@@ -25,6 +26,10 @@
 //because ya temporal dead zone ma hota hai tab tak
 //let block scope ma valid hota hai means { do curly brackett ka andar } accessible only
 //we can't redeclare let also which make it more safer then var
+
+
+
+
 
 var a;
 function fn(){
