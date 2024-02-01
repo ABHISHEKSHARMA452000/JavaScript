@@ -1,5 +1,5 @@
 1.there are two stack in js one is main stack jo ki output dete hai another is side stack 
-jisma async code hota hai jo ko only tab main ma jata hai when main stack empty ho jaya 
+jisma async code hota hai jo ki only tabhi main stack ma jata hai when main stack empty ho jaya 
 main ma direct toh sync code hi jata hai and indono stack ki bich ma baat karta hai event loop
 
 2. async jisma multiple task ek saath start kar diya jata hai and jis jis ka answer aata 

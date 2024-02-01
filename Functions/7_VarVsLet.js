@@ -31,24 +31,27 @@
 
 
 
-var a;
-function fn(){
-    console.log("Before declaration 8",a);//undefined
-    var a;//if ya let a ; hota yaha toh error milta 
-    console.log("After declaration 10",a);//undefined
-    a = 20;
-    if(true){
-        let a = 30;
-        console.log("35",a);//30
-    }
-    console.log("After initialization 12",a);//20
-}
-fn();
+// var a;
+// function fn(){
+//     console.log("Before declaration 8",a);//undefined
+//     var a;//if ya let a ; hota yaha toh error milta 
+//     console.log("After declaration 10",a);//undefined
+//     a = 20;
+//     if(true){
+//         let a = 30;
+//         console.log("35",a);//30
+//     }
+//     console.log("After initialization 12",a);//20
+// }
+// fn();
 
 
+z=10;
+var z;//let z does not work
+console.log(z);
 
-
-
+//var is a function scope let is a block scope
+//we cant use let before declaration but we can use var 
 
 
 

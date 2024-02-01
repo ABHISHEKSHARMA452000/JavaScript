@@ -1,0 +1,14 @@
+1.variables notation in js variable box of data ka liya most basic unit to store information
+object Person 1st letter capital
+constant full capital PI = 3.14
+camal case sa variable notation
+$ _ are allowed  in start and number inbetween and alphabet allowed
+
+2.
+
+
+
+
+
+
+
